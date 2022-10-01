@@ -4,6 +4,7 @@
     background: linear-gradient(90deg, #8456ec 3.25%, #e87bf8 100%);
 }
 
+/* Home page */
 .landingBackgroud {
     background: linear-gradient(0deg, #f6f2ff, #f6f2ff), #fbfaff;
 }
@@ -17,4 +18,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+/* Event Page */
+.eventIconShadow {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }

@@ -22,7 +22,7 @@ const EventCreate = () => {
                                 type="text"
                                 name="name"
                                 id="name"
-                                className="bg-gray-200 w-[100%] lg:w-[718px] py-3 px-2 text-gray-600 outline-none focus:bg-purple2 rounded-[4px] w-full"
+                                className="bg-gray-200 lg:w-[718px] py-3 px-2 text-gray-600 outline-none focus:bg-purple2 rounded-[4px] w-full"
                             />
                         </div>
                         <div className="flex flex-col w-full">
@@ -97,7 +97,7 @@ const EventCreate = () => {
                         />
                     </div>
                 </div>
-                <div className="flex justify-center w-full mt-[20px] md:mt-0">
+                <div className="flex justify-center w-full mt-[20px]">
                     <input
                         type="submit"
                         className="py-3 px-8 rounded-[4px] bg-gradient-to-r from-invitedPurple to-purple1 text-gray-100"
