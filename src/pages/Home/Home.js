@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../App.css";
 
 const Home = () => {
@@ -33,16 +34,24 @@ const Home = () => {
                             </p>
                         </div>
                         <div className="relative mt-[52px] hidden lg:block">
-                            <button className="w-[320px] h-[55px] rounded-[10px]  buttonGradientColor absolute right-0">
-                                🎉 Create my event
-                            </button>
+                            <div>
+                                <Link
+                                    to="/create"
+                                    className="w-[320px] h-[55px] rounded-[10px]  buttonGradientColor absolute right-0 flex items-center justify-center"
+                                >
+                                    🎉 Create my event
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div className="block lg:hidden order-first mt-[52px] mb-[25px]">
-                    <button className="w-[320px] h-[55px] rounded-[10px]  buttonGradientColor ">
+                    <Link
+                        to="/create"
+                        className="w-[320px] h-[55px] rounded-[10px]  buttonGradientColor "
+                    >
                         🎉 Create my event
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>
