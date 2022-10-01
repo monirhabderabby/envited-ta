@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+    mode: "jit",
     content: ["./src/**/*.{html,js}"],
     theme: {
         colors: {
@@ -21,7 +22,14 @@ module.exports = {
             "gray-200": "#F2F2F2",
             "gray-100": "#FBFAFF",
         },
-        extend: {},
+        extend: {
+            borderRadius: {
+                "35px": "35.1522px",
+            },
+            fontFamily: {
+                popins: ["Lato", "sans-serif"],
+            },
+        },
     },
     plugins: [],
 };

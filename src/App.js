@@ -1,10 +1,16 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import Event from "./pages/Envited__Event/Event";
+import EventCreate from "./pages/EventCreate/EventCreate";
+import Home from "./pages/Home/Home";
 
 function App() {
     return (
-        <div className="App">
-            <h1 className="text-gray-600">Monir Hossain</h1>
-        </div>
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/create" element={<EventCreate />} />
+            <Route path="/event" element={<Event />} />
+        </Routes>
     );
 }
 
